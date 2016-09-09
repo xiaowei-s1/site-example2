@@ -1,0 +1,109 @@
+@media only screen and (max-width : 1624px){
+	.form{
+	margin-top: -70px;
+    width: 293px;
+    height: 371px;
+	}
+	.form_center{
+    width: 242px;
+	}
+	.form_center p{
+	    margin-top: 17px;
+	    font-size: 12px;
+	}
+	.form_center h4{
+    	font-size: 18px;
+   		margin-top: 10px;
+	}
+	.form_center h3{
+	    font-size: 18px;
+	    margin-top: -10px;
+	}
+}
+/* Large Devices, Wide Screens */        /*текст - 10пиксилей*/
+@media only screen and (max-width : 1024px) {
+	.logo{
+		margin-left: 15px;
+	}
+	.logo h1{
+		font-size: 32px;
+	}
+	.logo h2{
+		font-size: 24px;
+		margin-right: 100px;
+	}
+	.logo p{
+		margin-right: 15px;
+	}
+	.text-on-baner >p >img{
+	display: none;
+	}
+	.text-on-baner p{
+    	font-size: 24px;
+    	margin-right: 15px;
+    	float: left;
+    	margin-left: 20px;
+	}
+	.form{
+		margin-top: -150px;
+		margin-right:10px; 
+	}
+	.logo_footer{
+		margin-left: 15px;
+	}
+	.logo_footer h1{
+		font-size: 32px;
+	}
+	.logo_footer h2{
+		font-size: 24px;
+		margin-right: 100px;
+	}
+
+
+}
+/* Medium Devices, Desktops */         /*еще -10пиксилей*/
+@media only screen and (max-width : 892px) {
+	.logo p {
+		font-size: 17px;
+		padding: 15px;
+	}
+	.logo p img{display: none;}
+
+	.text-on-baner p{
+    	font-size: 14px;
+    	margin-right: 10px;
+	}
+	.flex-control-paging li a {
+	    width: 16px;
+	    height: 16px;
+	}
+	.text-on-baner p img{
+		width: 50%;
+    	font-size: 14px;
+    	margin-right: 5px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.logo{
+		margin-left: 5px;
+	}
+	.logo h1{
+		font-size: 22px;
+	}
+	.logo h2{
+		font-size: 14px;
+		margin-right: 100px;
+	}
+	.logo p{
+		margin-right: 5px;
+	}
+	.menu ul li{
+	float: left;
+	margin:10px 30px 18px 10px;
+}
+	.flex-control-paging li a {
+	    width: 12px;
+	    height: 12px;
+	}
+}
